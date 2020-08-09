@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+
+        android:id="@+id/selectFile"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Select Project"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+
+        />
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/selectFile"
+        android:id="@+id/edittxt"
+        android:hint="Enter project name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <Button
+
+        android:id="@+id/send"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Upload"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/edittxt"
+
+        android:layout_height="wrap_content"
+
+        />
+
+
+</RelativeLayout>
